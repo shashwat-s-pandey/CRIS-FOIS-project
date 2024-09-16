@@ -1,0 +1,153 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+    background-color: #ffcc66;
+}
+
+.main-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar {
+    position: fixed;
+    background-color: #004080; /* Dark Blue */
+    padding: 0.5em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.nav-links {
+    list-style: none;
+    display: inline;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.nav-links h1 {
+    color: white;
+    text-decoration: none;
+    font-size: 2em;
+    padding: 10px 10px;
+    border-radius: 5px;
+    margin: 0;
+}
+
+.mycard {
+    padding-top: 20px;
+    background-color: white;
+    opacity: 90%;
+}
+
+section {
+    background-image: url(cris.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 30%;
+}
+
+form {
+    color: white;
+    text-align: center;
+    margin-top: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+input {
+    font-size: 20px;
+}
+
+.newuser {
+    color: white;
+    font-size: 0.8em;
+}
+
+.newuser a {
+    color: white;
+    text-decoration: none;
+}
+
+.newuser a:visited {
+    color: white;
+    text-decoration: none;;
+}
+
+.newuser:hover {
+    font-weight: bold;
+}
+
+table {
+    margin: auto;
+    padding: 5px;
+}
+
+.loginform {
+    position: relative;
+    border-radius: 60px;
+    background-color: #004080;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-left: 25em;
+    margin-right: 25em;
+    margin-top: 10em;
+    opacity: 0.9;
+}
+
+.loginform h2 {
+    text-align: center;
+    color: white;
+}
+
+.lgbtn {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    padding: 10px 15px;
+    background-color: #f9b233; /* Orange Button */
+    border-radius: 5px;
+}
+
+.lgbtn:hover {
+    background-color: #f08000;
+}
+
+td{
+    vertical-align: text-top;
+    padding: 10px;
+}
+
+.logo h1 {
+    color: white;
+    font-size: 1.8em;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+.logo a {
+    color: white; /* Ensure link is white */
+    text-decoration: none; /* No underline */
+}
+
+.logo a:visited {
+    color: white; /* Ensures the color doesn't change after visiting */
+    text-decoration: none; /* Removes underline on visited state */
+}
+
+footer {
+    background-color: #004080; /* Dark Blue */
+    padding: 10px;
+    margin-top: 7em;
+    top: 0;
+    color: white;
+    z-index: 2;
+}
+
+.footer h3 {
+    margin-left: 10px;
+}
